@@ -5,7 +5,7 @@ Analysis of Snapchat Application Review scrapped from Google Playstore (EDA, TF-
 ### Objective: 
 1.	Sentiment analysis of app reviews curated from Google Play Store for SnapChat. (NRC library used in R/Python)
 2.	LDA Topic Modeling to understand aggregated broad ranging themes addressed per Sentiment derived from Sentiment Analysis.
-**Data**: Extracted via review scrapping on Google Playstore
+#### Data: Extracted via review scrapping on Google Playstore
 
 ### Methodology:
 1.	EDA ->
@@ -31,8 +31,8 @@ Analysis of Snapchat Application Review scrapped from Google Playstore (EDA, TF-
 Contains of list of around ~15000 emotive words with their associations with 8 emotions (Anger, Anticipation, Disgust, Fear, Joy, Sorrow, Surprise & Trust) categorized into 2 broad sentiments (Negative & Positive).
 We decided on taking the NRC library for this particular case as we wanted to determine the emotions being conveyed in the reviews.
 Interesting Insights:
-**Expectations:** The positive emotions should have a +ve coeff in the model while -ve emotions should have a -ve coeff in the model & depending on the rating category the model was predicting the probability of, the significance of variables will change accordingly.
-**Analyzing the Multinomial regression:**
+#### Expectations: The positive emotions should have a +ve coeff in the model while -ve emotions should have a -ve coeff in the model & depending on the rating category the model was predicting the probability of, the significance of variables will change accordingly.
+#### Analyzing the Multinomial regression:
 1.	For most of the emotions (fear, anger, sorrow, disgust, joy) the coefficients were following our general expectations:
   a.	As the frequency of terms conveying joy increased -> Rating increased (+ve coeff of Joy in the model)
   b.	As the frequency of terms conveying fear, anger, sorrow or disgust increased -> Rating decreased (-ve coeff of the emotions in the model)
