@@ -8,7 +8,7 @@ Analysis of Snapchat Application Review scrapped from Google Playstore (EDA, TF-
 **Data**: Extracted via review scrapping on Google Playstore
 
 ### Methodology:
-1.	EDA -> 
+1.	EDA ->
   a.	Getting a sense of the distribution of the reviews per Rating (1, 2, 3, 4 or 5 stars)
   b.	TF-IDF (over the entire corpus & over reviews per rating) to quantify the frequency of individual words & determine their uniqueness per topic.
   c.	Word clouds (over the entire corpus & over reviews per rating) to visualize commonly occurring words.
